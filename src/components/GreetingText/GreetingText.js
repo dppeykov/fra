@@ -4,12 +4,11 @@ import "./GreetingText.css";
 
 const GreetingText = () => {
   return (
-    <div className="center ma4">
+    <div className="center ma4 w-70">
       <div className="flex justify-center typewriter">
-        <p>
-          This face recognition app will detect the faces in your pictures! Give
-          it a try!
-        </p>
+        <p>This face recognition app will detect the faces in your pictures!</p>
+        <br />
+        <p>Give it a try!</p>
       </div>
     </div>
   );
