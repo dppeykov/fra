@@ -2,9 +2,9 @@ import React from "react";
 
 const SignIn = () => {
   return (
-    <div>
-      <h1>Sign In</h1>
-    </div>
+    <p className="br-pill f5 link dim ph4 pv2 mr3 mt2 dib white bg-blue pointer">
+      Sign In
+    </p>
   );
 };
 
